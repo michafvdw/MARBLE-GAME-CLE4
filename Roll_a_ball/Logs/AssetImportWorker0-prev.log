@@ -1,0 +1,105 @@
+Using pre-set license
+
+ COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/mich/cle4_groep19/Roll_a_ball
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+49563
+Successfully changed project path to: /Users/mich/cle4_groep19/Roll_a_ball
+/Users/mich/cle4_groep19/Roll_a_ball
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 127.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.8f1 (507919d4fff5)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/mich/cle4_groep19/Roll_a_ball/Assets
+GfxDevice: creating device client; threaded=0
+2021-06-07 10:46:04.794 Unity[58767:3176732] Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+2021-06-07 10:46:04.794 Unity[58767:3176732] Metal devices available: 1
+2021-06-07 10:46:04.794 Unity[58767:3176732] 0: Intel(R) UHD Graphics 617 (low power)
+2021-06-07 10:46:04.794 Unity[58767:3176732] Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56767
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.002531 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 42.54 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  8.404 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.013518 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.37 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.150 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1390 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 137.8 MB.
+System memory in use after: 137.8 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 1824.
+Total: 2.452774 ms (FindLiveObjects: 0.230038 ms CreateObjectMapping: 0.059415 ms MarkObjects: 2.058116 ms  DeleteObjects: 0.104050 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/PlayerController.cs
+  artifactKey: Guid(5a761359d996f924d8f5a6bd3b154618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/PlayerController.cs using Guid(5a761359d996f924d8f5a6bd3b154618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a52578023d4eae155644012f8e6f28ba') in 0.637089 seconds
+  Import took 0.642285 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000361 seconds.
+  path: Assets/reset.cs
+  artifactKey: Guid(a6707a3bc7b1c0b4b92352058dc9dfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/reset.cs using Guid(a6707a3bc7b1c0b4b92352058dc9dfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8677f0689e16162bd5de11269fce1301') in 0.006657 seconds
+  Import took 0.012911 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.378748 seconds.
+  path: Assets/RightTarget.cs
+  artifactKey: Guid(7bf5ec81145a1984797963a6953d9da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/RightTarget.cs using Guid(7bf5ec81145a1984797963a6953d9da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcc0ba1ff01823d1c5d744a6df807529') in 0.007297 seconds
+  Import took 0.013119 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.836336 seconds.
+  path: Assets/CameraControl.cs
+  artifactKey: Guid(bead82c73b7f8684d8bd06546026ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CameraControl.cs using Guid(bead82c73b7f8684d8bd06546026ff7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ae745f8192850e15b9df4e2ecf9dfc') in 0.008299 seconds
+  Import took 0.014445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.293949 seconds.
+  path: Assets/Level1.unity
+  artifactKey: Guid(a92c4f646b92b4946876a7fbe8ece030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Level1.unity using Guid(a92c4f646b92b4946876a7fbe8ece030) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c7baebe2ae9cb252b2f38a9efeb36a') in 0.024975 seconds
+  Import took 0.031961 seconds .
+
