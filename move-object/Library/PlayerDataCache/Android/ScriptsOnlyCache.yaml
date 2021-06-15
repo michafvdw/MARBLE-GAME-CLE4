@@ -2,7 +2,9 @@ ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
     - PickUpObject
+    - destroyObject
     - spawnObjectOnTouch
+    - throwObject
     Unity.Rider.Editor.dll:
     - Packages.Rider.Editor.UnitTesting.CallbackData
     UnityEditor.TestRunner.dll:
@@ -44,9 +46,13 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 17676}
+      Script: {instanceID: 2150}
     - Class: 114
-      Script: {instanceID: 19076}
+      Script: {instanceID: 3368}
+    - Class: 114
+      Script: {instanceID: 15018}
+    - Class: 114
+      Script: {instanceID: 16102}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -204,6 +210,12 @@ ScriptsOnlyBuild:
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
     className: EventTrigger
+  - hash:
+      serializedVersion: 2
+      Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: PickUpObject
   - hash:
       serializedVersion: 2
       Hash: a81d4c2c1cf3ad164d277d927a193679
@@ -410,6 +422,12 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
+      Hash: cfb50359ccb2a0c2d2896796a58b2a5c
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: spawnObjectOnTouch
+  - hash:
+      serializedVersion: 2
       Hash: 748dd2a2a28da4e618912da5ac45684b
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.EventSystems
@@ -482,17 +500,17 @@ ScriptsOnlyBuild:
     className: TextContainer
   - hash:
       serializedVersion: 2
-      Hash: cb5e6e6890523f3171c15e9e1ec92cce
+      Hash: 2c816424d241bb21523fa36fab736e7d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: spawnObjectOnTouch
+    className: throwObject
   - hash:
       serializedVersion: 2
       Hash: 71bb6a6b6c8f052f948db64c7dd3ca4f
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
-    className: PickUpObject
+    className: destroyObject
   platform: 13
   scenePathNames:
   - Assets/Scenes/SampleScene.unity
-  playerPath: C:/Users/sara0/cle/New Unity Project/test.apk
+  playerPath: C:/Users/sara0/clegroep_19/move-object/block-throw.apk
