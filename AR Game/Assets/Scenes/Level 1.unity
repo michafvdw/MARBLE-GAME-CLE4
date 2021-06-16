@@ -304,7 +304,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f1b6f77a13b80c42a6cb924eacd4315, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  placedPrefab: {fileID: 7022723714440943815, guid: ec809bbdf84219544bcae12c57c1bbc2, type: 3}
+  placedPrefab: {fileID: 3261093973127637973, guid: a671438dccc104649a7c284eccf9b620, type: 3}
   ARPlaneManager: {fileID: 1883288563}
 --- !u!114 &1883288568
 MonoBehaviour:
@@ -319,7 +319,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   alreadySpawned: 0
-  spawnObj: {fileID: 1901641708592934564, guid: ec809bbdf84219544bcae12c57c1bbc2, type: 3}
+  spawnObj: {fileID: 7909968382951102287, guid: c1ff13d9ec731b04b9b1c59eca29f58b, type: 3}
   arCamera: {fileID: 1944721740}
 --- !u!1 &1944721740
 GameObject:

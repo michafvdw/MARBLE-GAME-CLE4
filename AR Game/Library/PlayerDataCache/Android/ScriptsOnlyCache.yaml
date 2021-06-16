@@ -47,11 +47,7 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 48
       Script: {instanceID: 0}
-    - Class: 65
-      Script: {instanceID: 0}
-    - Class: 82
-      Script: {instanceID: 0}
-    - Class: 83
+    - Class: 64
       Script: {instanceID: 0}
     - Class: 89
       Script: {instanceID: 0}
@@ -60,26 +56,28 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1584}
+      Script: {instanceID: 1572}
     - Class: 114
-      Script: {instanceID: 1842}
+      Script: {instanceID: 1830}
     - Class: 114
-      Script: {instanceID: 2154}
+      Script: {instanceID: 2142}
     - Class: 114
-      Script: {instanceID: 2300}
+      Script: {instanceID: 2288}
     - Class: 114
-      Script: {instanceID: 2954}
+      Script: {instanceID: 2942}
     - Class: 114
-      Script: {instanceID: 2956}
+      Script: {instanceID: 2944}
     - Class: 114
-      Script: {instanceID: 3302}
+      Script: {instanceID: 3290}
     - Class: 114
-      Script: {instanceID: 3348}
+      Script: {instanceID: 3336}
     - Class: 114
-      Script: {instanceID: 3566}
+      Script: {instanceID: 3556}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 4104}
     - Class: 115
+      Script: {instanceID: 0}
+    - Class: 135
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
@@ -596,6 +594,12 @@ ScriptsOnlyBuild:
     assemblyName: Unity.XR.ARCore.dll
     namespaceName: UnityEngine.XR.ARCore
     className: ARCoreLoaderSettings
+  - hash:
+      serializedVersion: 2
+      Hash: 2c816424d241bb21523fa36fab736e7d
+    assemblyName: Assembly-CSharp.dll
+    namespaceName: 
+    className: throwObjectOnSwipe
   - hash:
       serializedVersion: 2
       Hash: c3d3430df9e3ea95e3e3d587961390fb
