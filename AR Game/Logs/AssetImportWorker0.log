@@ -113,3 +113,67 @@ Total: 3.601200 ms (FindLiveObjects: 0.321600 ms CreateObjectMapping: 0.125300 m
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001399 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.938 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(589824) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1459 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 67.2 MB.
+System memory in use after: 67.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 1915.
+Total: 2.053300 ms (FindLiveObjects: 0.129700 ms CreateObjectMapping: 0.035700 ms MarkObjects: 1.832100 ms  DeleteObjects: 0.054800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 548.399103 seconds.
+  path: Assets/Scripts/throwObjectOnSwipe.cs
+  artifactKey: Guid(f18982391dfc0fa42a28db3a3d26980b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/throwObjectOnSwipe.cs using Guid(f18982391dfc0fa42a28db3a3d26980b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30225466530ee4d500648b39e26dd723') in 0.006221 seconds
+  Import took 0.008302 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.781456 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91d21528f942c3649902c07dfc781fc2') in 0.299854 seconds
+  Import took 0.302888 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.425977 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd20ab308ff1494d6fdd47e752bc2247c') in 0.009539 seconds
+  Import took 0.012388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.036433 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b09ce216391728d6a8babb2bcc53c5') in 0.011632 seconds
+  Import took 0.014386 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027623 seconds.
+  path: Assets/Prefabs/Cube.prefab
+  artifactKey: Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Cube.prefab using Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b09ce216391728d6a8babb2bcc53c5') in 0.010950 seconds
+  Import took 0.013802 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
