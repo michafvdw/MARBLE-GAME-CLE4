@@ -12,19 +12,11 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-<<<<<<< HEAD
 50768
 Successfully changed project path to: /Users/mich/cle4_groep19/AR Game
 /Users/mich/cle4_groep19/AR Game
 Using Asset Import Pipeline V2.
 Refreshing native plugins compatible for Editor in 45.36 ms, found 1 plugins.
-=======
-55619
-Successfully changed project path to: C:/Users/quint/OneDrive/Documenten/cle4_groep19/AR Game
-C:/Users/quint/OneDrive/Documenten/cle4_groep19/AR Game
-Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 56.65 ms, found 0 plugins.
->>>>>>> 3924c66d15c66690c77475f6fe9589cbe5080bbb
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.8f1 (507919d4fff5)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -36,7 +28,6 @@ GfxDevice: creating device client; threaded=0
 2021-06-16 11:07:55.687 Unity[67212:386634] Using device Intel(R) UHD Graphics 617 (low power)
 Initializing Metal device caps: Intel(R) UHD Graphics 617
 Initialize mono
-<<<<<<< HEAD
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.8f1/Unity.app/Contents/MonoBleedingEdge/etc'
@@ -176,14 +167,3 @@ Received Import Request.
 Start importing Assets/Prefabs/Cube.prefab using Guid(ec809bbdf84219544bcae12c57c1bbc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9da148f53b1c0e138cbaa88cbc614acd') in 0.034555 seconds
   Import took 0.040580 seconds .
 
-=======
-Mono path[0] = 'D:/Unity/2020.3.8f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Unity/2020.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56444
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: D:/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/Unity/2020.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.144791 seconds.
->>>>>>> 3924c66d15c66690c77475f6fe9589cbe5080bbb
