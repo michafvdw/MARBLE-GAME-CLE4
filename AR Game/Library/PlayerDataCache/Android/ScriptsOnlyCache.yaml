@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - ObjectSound
     - SpawnAuto
     - SpawnObjectOnScreen
     Unity.Rider.Editor.dll:
@@ -61,27 +60,25 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1586}
+      Script: {instanceID: 1584}
     - Class: 114
-      Script: {instanceID: 1652}
+      Script: {instanceID: 1842}
     - Class: 114
-      Script: {instanceID: 1844}
+      Script: {instanceID: 2154}
     - Class: 114
-      Script: {instanceID: 2158}
+      Script: {instanceID: 2300}
     - Class: 114
-      Script: {instanceID: 2304}
+      Script: {instanceID: 2954}
     - Class: 114
-      Script: {instanceID: 2958}
+      Script: {instanceID: 2956}
     - Class: 114
-      Script: {instanceID: 2960}
+      Script: {instanceID: 3302}
     - Class: 114
-      Script: {instanceID: 3306}
+      Script: {instanceID: 3348}
     - Class: 114
-      Script: {instanceID: 3352}
+      Script: {instanceID: 3566}
     - Class: 114
-      Script: {instanceID: 3570}
-    - Class: 114
-      Script: {instanceID: 4118}
+      Script: {instanceID: 4114}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 157
@@ -235,12 +232,6 @@ ScriptsOnlyBuild:
     className: PlaymodeTestsController
   - hash:
       serializedVersion: 2
-      Hash: b0b494225c771752b41b6aa55a47175e
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: SpawnObjectOnPlane
-  - hash:
-      serializedVersion: 2
       Hash: c1d728126ff1918728036c59106d32b2
     assemblyName: UnityEngine.UI.dll
     namespaceName: UnityEngine.UI
@@ -367,7 +358,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 0bad54a2aecc9a279512e5d008d995b8
+      Hash: c42fbd7152862802f318fb395f11364a
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: placeOnPlane

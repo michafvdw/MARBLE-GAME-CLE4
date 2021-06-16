@@ -10,7 +10,8 @@ public class placeOnPlane : MonoBehaviour
     public Transform spawnObj;
     public GameObject arCamera;
 
-    AudioSource source;
+    [SerializeField]
+    public AudioSource source;
 
     // Start is called before the first frame update
     void Start()
