@@ -5,7 +5,7 @@ using UnityEngine;
 public class spawnObjectOnTouch : MonoBehaviour
 {
     public Transform spawnObj;
-    public float spawnLimit = 0;
+    public static int spawnLimit = 0;
 
     void Update()
     {
@@ -18,6 +18,12 @@ public class spawnObjectOnTouch : MonoBehaviour
                 Instantiate(spawnObj, new Vector3(cameraPos.x, cameraPos.y, cameraPos.z + 3), cameraRot);
                 spawnLimit++;
             }
+        }
+        
+        if (spawnObj.transform.position.y < -10)
+        {
+            Destroy(spawnObj);
+            spawnLimit--;
         }
 
 
