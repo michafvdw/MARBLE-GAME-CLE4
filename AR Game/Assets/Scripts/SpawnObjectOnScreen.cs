@@ -2,19 +2,21 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+[RequireComponent(typeof(AudioSource))]
+
 public class placeOnPlane : MonoBehaviour
 {
     public bool alreadySpawned;
     public Transform spawnObj;
     public GameObject arCamera;
-    public AudioClip letter;
 
-    private AudioSource source;
+    AudioSource source;
 
     // Start is called before the first frame update
     void Start()
     {
         alreadySpawned = false;
+        source = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -36,7 +38,6 @@ public class placeOnPlane : MonoBehaviour
         var camera = arCamera.transform;
 
         Instantiate(spawnObj, arCamera.transform.position + arCamera.transform.forward * 10f, Quaternion.identity);
-        source = GetComponent<AudioSource> ();
-        source.PlayOneShot (letter, 1.0f);
+        source.Play(0);
     }
 }
