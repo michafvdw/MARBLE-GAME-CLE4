@@ -9,6 +9,7 @@ public class ObjectSound : MonoBehaviour
     //If scene starts audio from object (cube) will be played
          void Start (){
                ac = GetComponent<AudioSource> ();
+               ac.PlayOneShot (ac.clip);
            }
 }
 
